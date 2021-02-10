@@ -1,0 +1,41 @@
+{
+  "name": "b9f36bcf530f3d6b5c9cf39d2e260a99",
+  "displayName": "B9F36BCF530F3D6B5C9CF39D2E260A99 (Theme)",
+  "description": "Theme / edition: minimal semantic",
+  "publisher": "shahabkhalvatu",
+  "author": {
+    "name": "Shahab Khalvati",
+    "email": "yo@shahabkhalvati.com",
+    "url": "https://shahabkhalvati.com"
+  },
+  "version": "0.0.0",
+  "preview": true,
+  "homepage": "https://github.com/shahabkhalvati/b9f36bcf530f3d6b5c9cf39d2e260a99",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahabkhalvati/b9f36bcf530f3d6b5c9cf39d2e260a99"
+  },
+  "bugs": {
+    "url": "https://github.com/shahabkhalvati/b9f36bcf530f3d6b5c9cf39d2e260a99/issues"
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "B9F36BCF530F3D6B5C9CF39D2E260A99 (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-dark-color-theme.json"
+      },
+      {
+        "label": "B9F36BCF530F3D6B5C9CF39D2E260A99 (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/default-light-color-theme.json"
+      }
+    ]
+  }
+}
