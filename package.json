@@ -8,7 +8,7 @@
     "email": "yo@shahabkhalvati.com",
     "url": "https://shahabkhalvati.com"
   },
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "preview": true,
   "homepage": "https://github.com/shahabkhalvati/b9f36bcf530f3d6b5c9cf39d2e260a99",
   "repository": {
@@ -25,7 +25,7 @@
     "Themes"
   ],
   "scripts": {
-    "publish": "vsce publish" 
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
