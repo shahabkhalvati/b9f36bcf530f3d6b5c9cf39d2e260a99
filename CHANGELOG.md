@@ -1,7 +1,6 @@
 # Change Log
 
-[coming soon]
+## [0.0.2] 2021-02-12
+- Add screenshots to readme
 
-## [Unreleased]
-
-- Initial release / So WIP
+## [0.0.1] 2021-02-11 / init release
