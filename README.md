@@ -16,18 +16,17 @@ It is highly opinionated! Opinions like:
 Won't consider it minimal as the common minimalist themes or designs but actively trying to use the minimum amount of styling and colors.
 
 ## Screenshots
+![screenshot-01](images/dark-01.png)
 
-![screenshot-01](./media/dark-01.png)
+![screenshot-02](images/light-01.png)
 
-![screenshot-02](./media/light-01.png)
+![screenshot-03](images/dark-02.png)
 
-![screenshot-03](./media/dark-02.png)
+![screenshot-04](images/light-02.png)
 
-![screenshot-04](./media/light-02.png)
+![screenshot-05](images/dark-03.png)
 
-![screenshot-05](./media/dark-03.png)
-
-![screenshot-06](./media/light-03.png)
+![screenshot-06](images/light-03.png)
 
 ## Usage
 
