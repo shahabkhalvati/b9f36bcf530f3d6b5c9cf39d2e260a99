@@ -15,6 +15,15 @@ It is highly opinionated! Opinions like:
 
 Won't consider it minimal as the common minimalist themes or designs but actively trying to use the minimum amount of styling and colors.
 
+## Screenshots
+
+![screenshot-01](media/dark-01.png)
+![screenshot-01](media/light-01.png)
+![screenshot-01](media/dark-02.png)
+![screenshot-01](media/light-02.png)
+![screenshot-01](media/dark-03.png)
+![screenshot-01](media/light-03.png)
+
 ## Usage
 
 While this is so in progress, my current VS Code config is as follow:
