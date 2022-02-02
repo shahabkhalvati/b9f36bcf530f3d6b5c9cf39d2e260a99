@@ -17,11 +17,15 @@
     "breadcrumb.focusForeground": "#536271",
 
     // statusbar
-    "statusBar.background": "#EBEBEA",
     "statusBar.border": "#D9D9D9",
+    "statusBar.background": "#EBEBEA",
+    "statusBar.foreground": "#536271",
     "statusBarItem.remoteBackground": "#EBEBEA",
 		"statusBarItem.remoteForeground": "#536271",
-    "statusBar.foreground": "#536271",
+		"statusBar.noFolderBackground": "#EBEBEA",
+    "statusBar.noFolderForeground": "#536271",
+		"statusBar.debuggingBackground": "#EBEBEA",
+		"statusBar.debuggingForeground": "#AA2E00",
 
     // activity bar / sidebar
     "activityBar.background": "#EBEBEA",
@@ -533,6 +537,122 @@
 			],
 			"settings": {
 				"foreground": "#3455db",
+			}
+		},
+		{
+			"name": "elixir / string, numeric, data",
+			"scope": [
+				"source.elixir string",
+				"source.elixir string punctuation",
+				"source.elixir constant.numeric"
+			],
+			"settings": {
+				"foreground": "#008040",
+			}
+		},
+		{
+			"name": "elixir / atom",
+			"scope": [
+				"source.elixir constant.language.symbol",
+			],
+			"settings": {
+				"foreground": "#007A7C",
+			}
+		},
+		{
+			"name": "elixir / operators",
+			"scope": [
+				"source.elixir keyword.operator.assignment",
+				"source.elixir keyword.operator.arithmetic",
+				"source.elixir keyword.operator",
+			],
+			"settings": {
+				"foreground": "#7023B7",
+			}
+		},
+		{
+			"name": "elixir / keywords",
+			"scope": [
+				"source.elixir keyword",
+				"source.elixir keyword.control.module",
+				"source.elixir keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#8859B6",
+			}
+		},
+		{
+			"name": "elixir / module name",
+			"scope": [
+				"source.elixir entity.name",
+				"source.elixir meta.function entity.name.function",
+			],
+			"settings": {
+				"foreground": "#0000E0",
+			}
+		},
+		{
+			"name": "elixir / module use",
+			"scope": [
+				"source.elixir variable.other.constant",
+			],
+			"settings": {
+				"foreground": "#2574A9",
+			},
+		}, 
+		{
+			"name": "elixir / function call",
+			"scope": [
+				"source.elixir entity.name.function-call",
+				"source.elixir source.elixir.embedded"
+			],
+			"settings": {
+				"foreground": "#0F4880",
+			},
+		},
+		{
+			"name": "elixir / foreground",
+			"scope": [
+				"source.elixir",
+				"source.elixir comment.wildcard",
+				"source.elixir comment",
+				"source.elixir punctuation.definition.comment",
+				"source.elixir meta.function.definition parameter", // params in def
+			],
+			"settings": {
+				"foreground": "#696969",
+			}
+		},
+		{
+			"name": "elixir / comment",
+			"scope": [
+				"source.elixir comment",
+				"source.elixir punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#B22222",
+				// "fontStyle": "italic",
+			}
+		},
+		{
+			"name": "elixir / secondary",
+			"scope": [
+				"source.elixir punctuation",
+				"source.elixir meta.function.definition", // () in def
+			],
+			"settings": {
+				"foreground": "#8191A2",
+			}
+		},
+		{
+			"name": "elixir / module attribute",
+			"scope": [
+				// "source.elixir variable.other.readwrite.module",
+				"source.elixir variable.other.readwrite",
+				"source.elixir variable.other.readwrite punctuation",
+			],
+			"settings": {
+				"foreground": "#1C2833",
 			}
 		},
 	]
