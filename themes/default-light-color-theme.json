@@ -63,6 +63,8 @@
 		// "editorBracketMatch.border": "#22b455", // needed ?
 		"editorCodeLens.foreground": "#638BB3",
 		"gitlens.trailingLineForegroundColor": "#BDC4CC",
+		"editorIndentGuide.activeBackground": "#DEDEDE",
+    "editorIndentGuide.background": "#f1f1ef",
 
     // gutter
 		"editor.lineHighlightBackground": "#EDEDED",
